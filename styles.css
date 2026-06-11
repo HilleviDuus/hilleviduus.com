@@ -1,0 +1,97 @@
+html {
+  background: #001eff;
+  color: #ffffff;
+}
+
+body {
+  max-width: 720px;
+  margin: 42px auto;
+  padding: 0 18px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+header {
+  margin-bottom: 54px;
+}
+
+.name {
+  display: inline-block;
+  margin-bottom: 22px;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover,
+a.active {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 620px;
+}
+
+p {
+  margin: 0 0 18px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.page-image {
+  display: block;
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  margin-top: 34px;
+}
+
+.live-year {
+  margin-bottom: 18px;
+}
+
+.live-year p,
+.work-year p {
+  margin-bottom: 0;
+}
+
+.work-year {
+  margin-bottom: 18px;
+}
+
+.work-year .work-item {
+  margin-top: 12px;
+}
+
+.work-year .work-item:first-of-type {
+  margin-top: 0;
+}
+
+@media (max-width: 520px) {
+  body {
+    margin-top: 26px;
+  }
+
+  header {
+    margin-bottom: 38px;
+  }
+}
