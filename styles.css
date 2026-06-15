@@ -70,11 +70,16 @@ li {
 }
 
 .live-year p,
-.work-year p {
+.work-year p,
+.news-item p {
   margin-bottom: 0;
 }
 
 .work-year {
+  margin-bottom: 18px;
+}
+
+.news-item {
   margin-bottom: 18px;
 }
 
